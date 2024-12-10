@@ -1,0 +1,249 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome}
+\usepackage{hyperref}   
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+\begin{center}
+    \textbf{\Huge \scshape Tanadol Jaichuen}
+\end{center}
+\vspace{-12px}
+ \begin{center}
+    
+\small\faPhone \hspace{0.5px} {{(+66)97-276-4321}} $|$
+\faMapMarker \hspace{0.5px} Phayathai, Bangkok $|$ 
+\faEnvelope \hspace{0.5px} \href{tanadol.jc@gmail.com}{{tanadol.jc@gmail.com}} $|$
+\faGithub \hspace{0.5px} \href{github.com/MossMost}{{Github.com/tanadoljc}} 
+\end{center}
+\vspace{-10px}
+% ----------SUMMARY------------
+\section{\textbf{SUMMARY}}
+{Motivated Computer Engineering student with a strong foundation in data engineering. Experienced in database design, optimizing data workflows and demonstating problem-solving skills, leadership, and teamwork abilities.}
+
+\vspace{-5px}
+%-----------EDUCATION-----------
+\section{\textbf{EDUCATION}}
+\vspace{2px}
+  \hspace*{5pt} \textbf{Chulalongkorn University} \hfill 2022 -- Present\\
+\vspace{2pt}
+\hspace*{7pt} {Bachelor of Engineering in Computer Engineering.} \\
+\vspace{2pt}
+\hspace*{7pt} {Relevant Coursework: Data Engineering/Science, Database Systems, Data structure, Algorithm Design}
+
+\vspace{-4px}
+%-----------Experience-----------
+\section{\textbf{EXPERIENCE}}
+  \resumeSubHeadingListStart
+    \vspace{2px}
+    \resumeSubheading   
+      {Engineering Faculty's Central Database }{Aug. 2024 -- Present}
+      {Team Leader \& Coordinator}{Chulalongkorn University, Thailand}
+      \resumeItemListStart
+        \resumeItem{Gathered requirements and essential data schema from each department through in-person user interviews.}    
+        \resumeItem{Formulated a comprehensive conceptual design, including SIPOC and ER diagrams, to represent all departmental processes in a unified representation and mapped into relational database schema while ensuring data consistency.}
+      \resumeItemListEnd
+
+      \vspace{3px}
+    \resumeSubheading
+      {CP\&CEDT Database Systems }{Nov. 2024 -- Present}
+      {Teacher Assistant}{Computer Engineering Faculty, Thailand}
+      \resumeItemListStart
+        \resumeItem{Assisted in teaching and mentoring students in Database Systems Design, providing guidance on database modeling, normalization, and SQL programming, while supporting the instructor with coursework preparation and grading.}
+        \resumeItem{Designed the final exam to evaluate comprehensive understanding of database concepts and practical applications.}
+        \resumeItemListEnd 
+
+  \resumeSubHeadingListEnd
+
+\vspace{-9px}
+\section{\textbf{PROJECTS \& ACHIEVEMENTS}}
+    \vspace{2px}
+    \resumeSubHeadingListStart
+    \resumeSubheading
+      {\textbf{Mycourseville’s TCAS E-portfolio -- \textnormal{\textit{Team Leader}}}}{Oct. 2023 -- May 2024}
+      {}{}
+      \resumeItemListStart
+      \vspace{-4mm}
+        \resumeItem{Maintained E-portfolio website to gather student works for evaluation purposes, serving as a full stack developer.}
+        \resumeItem{Designed database to minimize maintenance, enabling integration with other projects without modifying the code.}
+      \resumeItemListEnd
+
+      \vspace{1.5px}
+    \resumeSubheading
+      {\textbf{Aihack Thailand 2024, AI Hackathon -- \textnormal{\textit{Team Leader}}}}{December 2024}
+      {}{}
+      \resumeItemListStart
+      \vspace{-4mm}
+        \resumeItem{Created a machine learning model to identify long-overdue debtors by analyzing personal financial data and more.}
+        \resumeItem{Conducted data cleaning, preprocessing, and analysis using linear models to enable risk assessment insights.}
+      \resumeItemListEnd
+            
+    \vspace{1.5px}
+      \resumeSubheading
+      {ProgMeth Station \textbf{\textbf{(Thinc's 10 Days Project) -- \textnormal{\textit{Coordinator}}}}}{October 2023}
+{}{}
+      \resumeItemListStart
+      \vspace{-4mm}
+        \resumeItem{Created dynamic website designed for selling and buying ProgMeth's java games, focusing on back-end developer.}
+        \resumeItem{Collaborated with the front-end team and developed APIs to enable integrate databases with cloud services.}
+      \resumeItemListEnd
+
+      \vspace{1.5px}
+    \resumeSubheading
+      {\textbf{Thailand Computer Olympiad Camp -- \textnormal{\textit{Teacher Assistant}}}}{2022 -- 2023}
+{}{}
+      \resumeItemListStart
+      \vspace{-4mm}
+        \resumeItem{Won a Bronze Medal in the 17th Thailand Olympiad in Informatics (TOI), a national-level competition featuring the top 90 students in Thailand, showcasing excellence in competitive programming and systematic analysis.}
+        \resumeItem{Taught and set evaluation exams to assess student knowledge regarding Data Structures and Algorithm design.}
+      \resumeItemListEnd
+      
+    \resumeSubHeadingListEnd
+    
+
+    \vspace{-10px}
+%-----------Extracurriculars-----------
+\section{\textbf{EXTRACURRICULAR ACTIVITIES}}
+   \resumeSubHeadingListStart
+   \vspace{3px}
+      \resumeSubheading
+      {LohitClub Volunteer Camp}{December 2024}
+{}{}
+      \resumeItemListStart
+      \vspace{-13px}
+       \resumeItem{Served as the head of construction department, planning and organizing daily activities and schedules to ensure smooth execution of camp objectives aimed at improving living conditions in northern indigenous communities.}
+      \resumeItemListEnd
+    \vspace{-4px}
+    \resumeSubheading
+      {FunFueng Camp}{May 2024}
+      {}{}
+      \resumeItemListStart
+      \vspace{-4mm}
+        \resumeItem{Organized a camp to teach high school students through hands-on activities, while also serving as HR coordinator.}
+      \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+\vspace{-10px}
+%-----------Skill and Interests-----------
+\section{\textbf{SKILLS \& MISCELLANEOUS} }
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+    \vspace{1mm}
+     \textbf{Technical Skills} \\
+     \hspace{15px}{Programming Languages: Python, C/C++, Java, Scala, SQL/noSQL (Postgres, MySQL, Snowflake, MongoDB)} \\
+     \vspace{3px}
+     \hspace{15px}{Tools and Technologies: ETL/ELT, Spark, Airflow, Docker, Git, Tableau} \\
+     \vspace{1mm}
+     \textbf{Languages}: Thai (Native), English \\  
+     \vspace{1px}
+     \textbf{Interests}{: Automation, Hackathons, Data Visualization Integration, Community Building (Volunteer)} \\
+     \vspace{1mm}
+
+    }}
+ \end{itemize}
+
+
+
+\end{document}
